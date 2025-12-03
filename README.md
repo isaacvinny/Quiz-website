@@ -4,9 +4,10 @@ A responsive, interactive quiz application built with HTML, CSS, and JavaScript.
 This project features a modern, colorful UI on a sleek black background, supports PC, tablet, and mobile, and includes an automated countdown timer for each question.
 
 Features
-Responsive Design
+**Responsive Design
 
 Fully optimized for desktop, tablet, and mobile phones
+
 Clean layout with a colorful UI against a dark theme
 
 **10-Second Timer
