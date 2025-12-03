@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title> Quiz Page</title>
+</head>
+<body>
+    <div class="quiz-container">
+        <div class="quiz-content">
+            <div class="quiz-box">
+                <h2>Vinnys' Quiz Page</h2>
+            </div>
+            <div class="quiz-header">
+                <span class="quiz-timer"> 10 s</span>
+            </div>
+            <div class="question-text">
+                <h3 class="question-element"></h3>
+            </div>
+            <div class="option-list">
+                <!--<button>A. Option Option Option 1</button>
+                <button>B. Option Option Option 2</button>
+                <button>C. Option Option Option 3</button>
+                <button>D. Option Option Option 4</button>-->
+            </div>
+            <div class="quiz-footer">
+                <span class="question-total"> 1 of 5 Questions</span>
+                <button class="next" disabled>Next</button>
+            </div>
+        </div>
+        <div class="result-container">
+            <h2>Vinnys' Quiz Result</h2>
+            <p class="score"></p>
+            <button onclick="location.reload()">Restart</button>
+        </div>
+    </div>
+    
+    <script src="questions.js"></script>
+</body>
+</html>
